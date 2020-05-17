@@ -1,0 +1,26 @@
+{
+  "name": "dev.upm-packages.cafu.numberrenderer",
+  "displayName": "CAFU DigitRenderer",
+  "version": "0.0.1",
+  "unity": "2019.2",
+  "description": "Render numbers using UI.Image, UI.RawImage or SpriteRenderer.",
+  "author": {
+    "name": "Tetsuya Mori",
+    "url": "https://me.monry.dev/",
+    "email": "monry84@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "category": "",
+  "dependencies": {
+    "com.unity.addressables": "1.6.2",
+    "com.stevevermeulen.extenject": "9.1.0-5",
+    "dev.upm-packages.unitask-extensions": "1.0.0-preview.1",
+    "jp.cysharp.unitask": "1.0.0",
+    "dev.upm-packages.cafu.core": "null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/upm-packages/CAFU.NumberRenderer"
+  }
+}
