@@ -36,7 +36,7 @@ namespace CAFU.NumberRenderer.Presenter
                         RenderableImagesProvider.Images.Select(
                             x => x
                                 .LoadAssetAsync()
-                                .ConfigureAwait(cancellation: cancellationToken)
+                                .ConfigureAwait(cancellationToken: cancellationToken)
                         )
                     );
             }

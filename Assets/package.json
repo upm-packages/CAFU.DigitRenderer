@@ -1,6 +1,6 @@
 {
   "name": "dev.upm-packages.cafu.numberrenderer",
-  "displayName": "CAFU DigitRenderer",
+  "displayName": "CAFU NumberRenderer",
   "version": "1.0.1",
   "unity": "2019.2",
   "description": "Render numbers using UI.Image, UI.RawImage or SpriteRenderer.",
@@ -16,7 +16,7 @@
     "com.unity.addressables": "1.6.2",
     "com.stevevermeulen.extenject": "9.1.0",
     "dev.upm-packages.cafu.core": "0.1.0-preview.5",
-    "dev.upm-packages.unitask-extensions": "1.0.0-preview.1",
+    "dev.upm-packages.unitask-extensions": "1.0.0-preview.2",
     "jp.cysharp.unitask": "1.0.0"
   },
   "repository": {
