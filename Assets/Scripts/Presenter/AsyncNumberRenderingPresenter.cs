@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using UniRx.Async;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
@@ -36,7 +36,7 @@ namespace CAFU.NumberRenderer.Presenter
                         RenderableImagesProvider.Images.Select(
                             x => x
                                 .LoadAssetAsync()
-                                .ConfigureAwait(cancellationToken: cancellationToken)
+                                .WithCancellation(cancellationToken)
                         )
                     );
             }

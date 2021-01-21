@@ -1,5 +1,6 @@
 {
     "name": "CAFU.NumberRenderer.Tests.Runtime",
+    "rootNamespace": "",
     "references": [
         "GUID:0acc523941302664db1f4e527237feb3",
         "GUID:27619889b8ba8c24980f49ee34dbb44a",
@@ -24,7 +25,7 @@
         "nunit.framework.dll",
         "NSubstitute.dll",
         "Zenject-usage.dll",
-        "Zenject-TestFramework.dll"
+        "Zenject-TestFramework-usage.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [],
