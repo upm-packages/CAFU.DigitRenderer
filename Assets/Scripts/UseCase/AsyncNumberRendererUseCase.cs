@@ -1,7 +1,7 @@
 using System.Threading;
 using CAFU.Core;
 using CAFU.NumberRenderer.Entity;
-using UniRx.Async;
+using Cysharp.Threading.Tasks;
 
 namespace CAFU.NumberRenderer.UseCase
 {
